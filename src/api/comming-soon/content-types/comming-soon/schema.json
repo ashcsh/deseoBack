@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "comming_soons",
+  "info": {
+    "singularName": "comming-soon",
+    "pluralName": "comming-soons",
+    "displayName": "commingSoon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Titlu": {
+      "type": "string"
+    },
+    "textCommingSoon": {
+      "type": "text"
+    },
+    "linkInsta": {
+      "type": "string"
+    },
+    "linkFacebook": {
+      "type": "string"
+    },
+    "linkTiktok": {
+      "type": "string"
+    }
+  }
+}
